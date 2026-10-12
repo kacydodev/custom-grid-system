@@ -12,6 +12,8 @@ The system flow for this grid system is as follows:
 4. Grid Object Interaction: Grid objects can interact with each other and the grid system.
 5. Grid System Updates: The grid system updates its state based on the interactions between grid objects.
 
+### Create New Grid Method
 ![img.png](img~/img1.png)
 
+### Get Grid Position Method
 ![img.png](img~/img2.png)
