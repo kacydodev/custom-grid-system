@@ -1,16 +1,16 @@
-using UnityEngine;
-
-public class GridPosition : MonoBehaviour
+public struct GridPosition
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+  public int x;
+  public int z;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public GridPosition(int x, int z)
+  {
+    this.x = x;
+    this.z = z;
+  }
+
+  public override string ToString()
+  {
+    return $"x: {x}; z: {z}";
+  }
 }
